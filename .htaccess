@@ -1,0 +1,42 @@
+# Turn RewriteEngine On
+RewriteEngine On
+
+# Rewrite for articoleCateg.php
+RewriteRule ^articole-categorii/([0-9]+) articoleCateg.php?id_categ=$1 [L,QSA]
+
+# Rewrite for medUrl.php
+RewriteRule ^medicamente/([0-9]+) medUrl.php?cod_med=$1 [L,QSA]
+
+# Rewrite for planteUrl.php
+RewriteRule ^plantemedicinale/([0-9]+) planteUrl.php?cod_planta=$1 [L,QSA]
+
+# Rewrite for simptUrl.php
+RewriteRule ^simptome/([0-9]+) simptUrl.php?id_simptom=$1 [L,QSA]
+
+# Rewrite for boliUrl.php
+RewriteRule ^boli/([0-9]+) boliUrl.php?id_boala=$1 [L,QSA]
+
+# Rewrite for articoleUrl.php
+RewriteRule ^articole/([0-9]+) articoleUrl.php?id_articol=$1 [L,QSA]
+
+# Rewrite for forumUrl.php
+RewriteRule ^forum/([0-9]+) forumUrl.php?id_forum=$1 [L,QSA]
+
+# Rewrite for dictionarMed.php
+RewriteRule ^medicamente dictionarMed.php
+
+# Rewrite for dictionarPlante.php
+RewriteRule ^plantemedicinale dictionarPlante.php
+
+# Rewrite for dictionarSimptome.php
+RewriteRule ^simptome dictionarSimptome.php
+
+# does not apply to existing directories
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#check for files with .php extension
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+#show the page that has .php extension
+RewriteRule ^(.*)$ $1.php [NC,L]
+

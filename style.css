@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.navbar{
+    padding: .8rem;
+  }
+ 
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+  
+  .div1 {
+    font-size: 15px;
+    color: crimson;
+  }
+
+  #_122:hover,
+  #_122.active {
+    background-color: rgb(71, 209, 209);
+    color: rgb(26, 101, 101);
+  }
+
+  #_123 {
+    border-bottom: blueviolet;
+    /* border-bottom-color: #71c5; */
+  }
+  #_123:hover,
+  #_123.active {
+    background-color: rgba(233, 94, 233, 0.473);
+    color: rgb(152, 19, 157);
+  }
+
+  #_125:hover,
+  #_125.active {
+    background-color: rgb(153, 230, 255);
+    color: rgb(0, 153, 204);
+  }
+
+  #_126:hover,
+  #_126.active {
+    background-color: #9d97d2;
+    color: rgb(61, 54, 126);
+  }
+
+  #_127:hover,
+  #_127.active {
+    background-color: rgb(255, 184, 77);
+    color: rgb(204, 82, 0);
+  }
+
+  #_128:hover,
+  #_128.active {
+    background-color: rgb(153, 204, 255);
+    color: rgb(0, 77, 153);
+  }
+
+  #_129:hover,
+  #_129.active {
+    background-color: rgb(179, 179, 179);
+  }
+
+  .nav-link {
+    font-size: 1.2em  !important;  /* the !important rule will override ALL previous styling rules for that specific property on that element*/
+  }
+
+  .container-fluid .container
+
+  .dictionar {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .articletitle {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .datapubl {
+  font-size: 90%;
+  }
+  .articlecateg {
+    background-color:#00ff00; 
+    border-radius: 6px;
+    margin-bottom: 90px;
+  }
+
+  .h2forum {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .paragraphforum {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .discutions {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .content-left {
+    position: absolute;
+    float: left;
+    width: 800px;
+  }
+
+  .content-right {
+    margin-top:10px; 
+    margin-left: 850px;
+    background-color: lightgrey;
+    text-align: center;
+  }
+
+  .box-info-cov > div {
+    background: #fff;
+    color: #393b3e;
+    background-repeat: no-repeat;
+    background-size: 48px;
+    background-position: top 5px left 50px;
+    padding: 5px;
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 153, 204);
+    margin-left: 25px;
+}
+
+  #nr {
+    color: rgb(55, 55, 182);
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  #box-search {
+    width: 500px;
+    height: 100px;
+    margin: 0 0 10px 0;
+    background-color: plum;
+    background-position: left top, right top, left top;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    position: relative;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.box1 {
+  width: 190px;
+  height:80px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-weight: 400;
+  background-color: rgb(199, 83, 147);
+  color: rgb(26, 101, 101);
+  border-radius: 15px;
+}
+.box2 {
+  width: 190px;
+  height:80px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-weight: 400;
+  background-color: rgba(233, 94, 233, 0.473);
+  color: rgb(152, 19, 157);
+  border-radius: 15px;
+  }
+  .box3 {
+   width: 190px;
+  height: 80px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-weight: 400;
+  background-color: rgba(243, 213, 40, 0.884);
+  color: rgb(152, 19, 157);
+  border-radius: 15px;
+  }
+.box4 {
+ width: 190px;
+  height: 80px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-weight: 400;
+  background-color: #9bff80;
+  color: rgb(9, 77, 31);
+  border-radius: 15px;
+  }
+  .box5 {
+   width: 190px;
+  height: 80px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-weight: 400;
+  background-color: #66ff33;
+  color: rgb(9, 71, 45);
+  border-radius: 15px;
+    }
+  .box6 {
+   width: 190px;
+  height: 80px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 160%;
+  font-weight: 400;
+  background-color: rgb(71, 209, 209);
+  color: rgb(26, 101, 101);
+  border-radius: 15px;
+    }
+
+.registermessage {
+  background-color: rgb(71, 209, 99);
+  color: rgb(19, 83, 19);
+  text-align: center;
+  padding: 1rem;
+}
+
+.display-4 {
+margin-top: 100px;
+margin-bottom: 80px;
+}
+
+.carousel .carousel-indicators li {
+    width: 10px;
+   height: 10px;
+   border-radius: 50%;
+ }
+ .carousel-inner img{
+    width: 100%;
+    height: 100%;
+  }
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);  
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+
+.main-section{
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 0;
+}
+.modal-content{
+  background-color:#33d6ff;
+  opacity:.85;
+}
+.user-img{
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+.user-img img{
+  height: 100px;
+  width: 100px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+.form-group input{
+  border-radius: 0;
+  border: 0;
+  height: 38px;
+  /*padding-left: 50px;*/
+}
+.form-input button{
+  width: 30%;
+  margin-bottom: 20px;
+}
+.link-part{
+  padding: 5px 0 20px;
+}
+.link-part a{
+  color: blue;
+}
+
+.leftr {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.rightr {
+  margin-left: 110px;
+}
+
+.left2 {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.right2 {
+  margin-left: 110px;
+}
+
+.left3 {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.right3 {
+  margin-left: 110px;
+}
+
+.left4 {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.right4 {
+  margin-left: 110px;
+}
+
+.left5 {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.right5 {
+  margin-left: 110px;
+}
+
+.left6 {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.right6 {
+  top: 130%;
+  margin-left: 110px;
+}
+
+.left7 {
+  position: absolute;
+  left: 5px;
+  width: 10px;
+}
+.right7 {
+  margin-left: 110px;
+}
+
+.textorientation {
+  writing-mode: vertical-rl;
+  font-size: 170%;
+  font-weight: 400;
+  color: rgb(26, 83, 255);
+}
+
+.addbutton {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.textart {
+  margin-left: 340px;
+  top:auto;
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption{
+    top: 45%;
+  }
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+  .display-4{
+    font-size: 200%;
+  }
+
+  .div1 {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+  }
+  .carousel-indicators{
+    display: none;
+  }
+  .display-4{
+    font-size: 160%;
+  }
+
+  .div1 {
+    font-size: 110%;
+  }
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
