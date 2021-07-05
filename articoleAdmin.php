@@ -18,12 +18,6 @@ $query->bindParam(":id_articol", $id_articol);
 $query->execute();
 $articole = $query ->fetchAll();
                            
-//$query1 = $conn->prepare("SELECT id_articol, GROUP_CONCAT(id_categ SEPARATOR ', ') as id_categ FROM articole_categ GROUP BY id_articol");
-// $query1->bindParam(":id_categ", $id_categ);
-// $query1->bindParam(":id_articol", $id_articol);
-// $query1->execute();
-// $categ = $query1 ->fetchAll();      
-// $conn = DB::connect();
 $q = $conn->prepare("SELECT nume FROM articole_categ AS x INNER JOIN categorii AS y ON x.id_categ=y.id_categ  INNER JOIN articole AS z ON x.id_articol=z.id_articol WHERE x.id_articol= ?");
  //$q->bindParam(":nume", $nume);
  //$q->bindParam(":id_articol", $id_articol);
